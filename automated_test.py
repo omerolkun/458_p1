@@ -32,11 +32,11 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument("--mute-audio")
 
 path = "/home/buket/COURSES/458p1/CS458Reborn/chromedriver"
-login_location = "/home/buket/COURSES/458p1/CS458Reborn/login.html"
+login_location = "/home/buket/COURSES/458p1/CS458Reborn/chromedriver"
 driver = webdriver.Chrome(path, options=options)
 driver.maximize_window()
 #driver.get("https://stars.bilkent.edu.tr/accounts/login")
-driver.get(login_location)
+driver.get("file:///D://My Files//Course Related//CS//Summer 21//CS 458//Project 1//CS458Reborn//login.html")
 
 # Using readlines()
 file1 = open('database.txt', 'r')
