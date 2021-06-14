@@ -38,7 +38,7 @@ driver.maximize_window()
 #driver.get("https://stars.bilkent.edu.tr/accounts/login")
 driver.get("file:///home/buket/COURSES/458p1/CS458Reborn/login.html")
 
-'''
+
 # Using readlines()
 file1 = open('database.txt', 'r')
 lines = file1.readlines()
@@ -55,4 +55,3 @@ for line in lines:
     enter_credentials(credentials[0], credentials[1])
     time.sleep(3)
 
-'''
