@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+         
+    </head>
+    <body>
+        <script defer src="login-page.js"></script>
+        
+        <div class="loginbox">
+            <img src="bilkent2.png" class="avatar">
+
+                <h1 id="login-header">Bilkent SRS</h1>
+
+                <div id="login-error-msg-holder">
+                    <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                    <p id="login-error-msg2">ID or Password fields cannot be blank!</p>
+                    <p id="login-error-msg3">ID cannot be empty space!</p>
+                    <p id="login-error-msg4">ID must be integer!</p>
+                    <p id="login-error-msg5">ID must be of length 8!</p>
+                    <p id="login-error-msg6">ID must be less than 40 characters!</p>
+                </div>
+
+
+                <form id="login-form">
+                    <p id=id-header>Student Id</p>
+                    <input type="text" name="id" id="id-field" class="login-form-field" placeholder="">
+                    <p id=id-pass>Password</p>
+                    <input type="password" name="password" id="password-field" class="login-form-field" placeholder="">
+                    <input type="submit" value="Login" id="login-form-submit">
+                </form>
+
+        </div>
+
+    </body>
+</html>
